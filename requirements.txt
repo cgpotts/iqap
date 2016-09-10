@@ -1,0 +1,4 @@
+python >= 2.7.10
+nltk >= 3.0
+numpy >= 1.5
+PyYAML >= 3.09
