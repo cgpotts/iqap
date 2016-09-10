@@ -1,0 +1,6 @@
+
+.DS_Store
+
+*.pyc
+
+ACL2010/data/imdb-reviewfield.unigrams-5threshold.csv
