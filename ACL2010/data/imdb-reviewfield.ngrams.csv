@@ -1,0 +1,871 @@
+"Token","Rating","TokenCount","RatingWideCount"
+"a bit optimistic",1,1,25389211
+"a bit optimistic",2,0,11750820
+"a bit optimistic",3,1,13990519
+"a bit optimistic",4,0,14958477
+"a bit optimistic",5,0,20382805
+"a bit optimistic",6,0,27408662
+"a bit optimistic",7,1,40176069
+"a bit optimistic",8,0,48706843
+"a bit optimistic",9,0,40264174
+"a bit optimistic",10,1,73929298
+"a little bit surprised",1,1,25389211
+"a little bit surprised",2,1,11750820
+"a little bit surprised",3,0,13990519
+"a little bit surprised",4,0,14958477
+"a little bit surprised",5,3,20382805
+"a little bit surprised",6,3,27408662
+"a little bit surprised",7,5,40176069
+"a little bit surprised",8,3,48706843
+"a little bit surprised",9,4,40264174
+"a little bit surprised",10,4,73929298
+"a little bit unusual",1,0,25389211
+"a little bit unusual",2,0,11750820
+"a little bit unusual",3,0,13990519
+"a little bit unusual",4,0,14958477
+"a little bit unusual",5,0,20382805
+"a little bit unusual",6,0,27408662
+"a little bit unusual",7,0,40176069
+"a little bit unusual",8,1,48706843
+"a little bit unusual",9,2,40264174
+"a little bit unusual",10,0,73929298
+"a lot better",1,518,25389211
+"a lot better",2,314,11750820
+"a lot better",3,423,13990519
+"a lot better",4,577,14958477
+"a lot better",5,878,20382805
+"a lot better",6,1102,27408662
+"a lot better",7,1230,40176069
+"a lot better",8,940,48706843
+"a lot better",9,579,40264174
+"a lot better",10,956,73929298
+"absolutely accurate",1,2,25389211
+"absolutely accurate",2,0,11750820
+"absolutely accurate",3,1,13990519
+"absolutely accurate",4,0,14958477
+"absolutely accurate",5,0,20382805
+"absolutely accurate",6,1,27408662
+"absolutely accurate",7,0,40176069
+"absolutely accurate",8,7,48706843
+"absolutely accurate",9,3,40264174
+"absolutely accurate",10,12,73929298
+"absolutely good",1,0,25389211
+"absolutely good",2,0,11750820
+"absolutely good",3,0,13990519
+"absolutely good",4,0,14958477
+"absolutely good",5,1,20382805
+"absolutely good",6,3,27408662
+"absolutely good",7,6,40176069
+"absolutely good",8,1,48706843
+"absolutely good",9,5,40264174
+"absolutely good",10,7,73929298
+"absolutely huge",1,2,25389211
+"absolutely huge",2,0,11750820
+"absolutely huge",3,1,13990519
+"absolutely huge",4,1,14958477
+"absolutely huge",5,2,20382805
+"absolutely huge",6,6,27408662
+"absolutely huge",7,5,40176069
+"absolutely huge",8,5,48706843
+"absolutely huge",9,3,40264174
+"absolutely huge",10,5,73929298
+"absolutely responsible",1,0,25389211
+"absolutely responsible",2,0,11750820
+"absolutely responsible",3,0,13990519
+"absolutely responsible",4,1,14958477
+"absolutely responsible",5,0,20382805
+"absolutely responsible",6,0,27408662
+"absolutely responsible",7,0,40176069
+"absolutely responsible",8,0,48706843
+"absolutely responsible",9,0,40264174
+"absolutely responsible",10,0,73929298
+"absolutely right",1,23,25389211
+"absolutely right",2,14,11750820
+"absolutely right",3,16,13990519
+"absolutely right",4,11,14958477
+"absolutely right",5,11,20382805
+"absolutely right",6,25,27408662
+"absolutely right",7,33,40176069
+"absolutely right",8,41,48706843
+"absolutely right",9,47,40264174
+"absolutely right",10,101,73929298
+"absolutely true",1,20,25389211
+"absolutely true",2,7,11750820
+"absolutely true",3,7,13990519
+"absolutely true",4,2,14958477
+"absolutely true",5,7,20382805
+"absolutely true",6,9,27408662
+"absolutely true",7,14,40176069
+"absolutely true",8,35,48706843
+"absolutely true",9,17,40264174
+"absolutely true",10,78,73929298
+"absolutely untrue",1,1,25389211
+"absolutely untrue",2,0,11750820
+"absolutely untrue",3,1,13990519
+"absolutely untrue",4,0,14958477
+"absolutely untrue",5,1,20382805
+"absolutely untrue",6,0,27408662
+"absolutely untrue",7,0,40176069
+"absolutely untrue",8,2,48706843
+"absolutely untrue",9,0,40264174
+"absolutely untrue",10,0,73929298
+"all right",1,339,25389211
+"all right",2,174,11750820
+"all right",3,194,13990519
+"all right",4,245,14958477
+"all right",5,329,20382805
+"all right",6,390,27408662
+"all right",7,512,40176069
+"all right",8,477,48706843
+"all right",9,363,40264174
+"all right",10,616,73929298
+"always aware",1,10,25389211
+"always aware",2,7,11750820
+"always aware",3,5,13990519
+"always aware",4,2,14958477
+"always aware",5,14,20382805
+"always aware",6,16,27408662
+"always aware",7,18,40176069
+"always aware",8,26,48706843
+"always aware",9,25,40264174
+"always aware",10,23,73929298
+"basically correct",1,0,25389211
+"basically correct",2,0,11750820
+"basically correct",3,0,13990519
+"basically correct",4,0,14958477
+"basically correct",5,0,20382805
+"basically correct",6,0,27408662
+"basically correct",7,0,40176069
+"basically correct",8,2,48706843
+"basically correct",9,0,40264174
+"basically correct",10,2,73929298
+"better than nothing",1,5,25389211
+"better than nothing",2,5,11750820
+"better than nothing",3,8,13990519
+"better than nothing",4,12,14958477
+"better than nothing",5,15,20382805
+"better than nothing",6,15,27408662
+"better than nothing",7,18,40176069
+"better than nothing",8,15,48706843
+"better than nothing",9,12,40264174
+"better than nothing",10,31,73929298
+"certainly lighter",1,0,25389211
+"certainly lighter",2,0,11750820
+"certainly lighter",3,0,13990519
+"certainly lighter",4,0,14958477
+"certainly lighter",5,0,20382805
+"certainly lighter",6,0,27408662
+"certainly lighter",7,1,40176069
+"certainly lighter",8,0,48706843
+"certainly lighter",9,0,40264174
+"certainly lighter",10,0,73929298
+"certainly possible",1,4,25389211
+"certainly possible",2,1,11750820
+"certainly possible",3,3,13990519
+"certainly possible",4,1,14958477
+"certainly possible",5,0,20382805
+"certainly possible",6,1,27408662
+"certainly possible",7,6,40176069
+"certainly possible",8,5,48706843
+"certainly possible",9,7,40264174
+"certainly possible",10,10,73929298
+"clearly different",1,1,25389211
+"clearly different",2,0,11750820
+"clearly different",3,0,13990519
+"clearly different",4,2,14958477
+"clearly different",5,0,20382805
+"clearly different",6,3,27408662
+"clearly different",7,6,40176069
+"clearly different",8,12,48706843
+"clearly different",9,3,40264174
+"clearly different",10,5,73929298
+"definitely worth",1,53,25389211
+"definitely worth",2,29,11750820
+"definitely worth",3,39,13990519
+"definitely worth",4,59,14958477
+"definitely worth",5,203,20382805
+"definitely worth",6,743,27408662
+"definitely worth",7,2030,40176069
+"definitely worth",8,2359,48706843
+"definitely worth",9,1520,40264174
+"definitely worth",10,2042,73929298
+"drastically wrong",1,1,25389211
+"drastically wrong",2,1,11750820
+"drastically wrong",3,0,13990519
+"drastically wrong",4,3,14958477
+"drastically wrong",5,0,20382805
+"drastically wrong",6,2,27408662
+"drastically wrong",7,4,40176069
+"drastically wrong",8,1,48706843
+"drastically wrong",9,0,40264174
+"drastically wrong",10,2,73929298
+"exactly right",1,15,25389211
+"exactly right",2,7,11750820
+"exactly right",3,10,13990519
+"exactly right",4,11,14958477
+"exactly right",5,10,20382805
+"exactly right",6,17,27408662
+"exactly right",7,49,40176069
+"exactly right",8,73,48706843
+"exactly right",9,86,40264174
+"exactly right",10,128,73929298
+"exactly true",1,2,25389211
+"exactly true",2,3,11750820
+"exactly true",3,0,13990519
+"exactly true",4,3,14958477
+"exactly true",5,7,20382805
+"exactly true",6,3,27408662
+"exactly true",7,7,40176069
+"exactly true",8,19,48706843
+"exactly true",9,10,40264174
+"exactly true",10,24,73929298
+"extra extraordinary",1,0,25389211
+"extra extraordinary",2,0,11750820
+"extra extraordinary",3,0,13990519
+"extra extraordinary",4,0,14958477
+"extra extraordinary",5,0,20382805
+"extra extraordinary",6,0,27408662
+"extra extraordinary",7,0,40176069
+"extra extraordinary",8,0,48706843
+"extra extraordinary",9,0,40264174
+"extra extraordinary",10,0,73929298
+"extraordinarily optimistic",1,0,25389211
+"extraordinarily optimistic",2,0,11750820
+"extraordinarily optimistic",3,0,13990519
+"extraordinarily optimistic",4,0,14958477
+"extraordinarily optimistic",5,0,20382805
+"extraordinarily optimistic",6,0,27408662
+"extraordinarily optimistic",7,0,40176069
+"extraordinarily optimistic",8,1,48706843
+"extraordinarily optimistic",9,0,40264174
+"extraordinarily optimistic",10,0,73929298
+"extremely difficult",1,38,25389211
+"extremely difficult",2,28,11750820
+"extremely difficult",3,27,13990519
+"extremely difficult",4,46,14958477
+"extremely difficult",5,33,20382805
+"extremely difficult",6,55,27408662
+"extremely difficult",7,69,40176069
+"extremely difficult",8,114,48706843
+"extremely difficult",9,109,40264174
+"extremely difficult",10,199,73929298
+"extremely happy",1,4,25389211
+"extremely happy",2,2,11750820
+"extremely happy",3,6,13990519
+"extremely happy",4,4,14958477
+"extremely happy",5,0,20382805
+"extremely happy",6,0,27408662
+"extremely happy",7,11,40176069
+"extremely happy",8,23,48706843
+"extremely happy",9,22,40264174
+"extremely happy",10,89,73929298
+"gradually better",1,0,25389211
+"gradually better",2,0,11750820
+"gradually better",3,0,13990519
+"gradually better",4,1,14958477
+"gradually better",5,0,20382805
+"gradually better",6,0,27408662
+"gradually better",7,0,40176069
+"gradually better",8,0,48706843
+"gradually better",9,2,40264174
+"gradually better",10,0,73929298
+"highly unusual",1,2,25389211
+"highly unusual",2,3,11750820
+"highly unusual",3,2,13990519
+"highly unusual",4,5,14958477
+"highly unusual",5,8,20382805
+"highly unusual",6,19,27408662
+"highly unusual",7,41,40176069
+"highly unusual",8,51,48706843
+"highly unusual",9,38,40264174
+"highly unusual",10,53,73929298
+"huge gap",1,10,25389211
+"huge gap",2,5,11750820
+"huge gap",3,5,13990519
+"huge gap",4,3,14958477
+"huge gap",5,7,20382805
+"huge gap",6,8,27408662
+"huge gap",7,8,40176069
+"huge gap",8,4,48706843
+"huge gap",9,12,40264174
+"huge gap",10,21,73929298
+"in trouble",1,367,25389211
+"in trouble",2,190,11750820
+"in trouble",3,206,13990519
+"in trouble",4,203,14958477
+"in trouble",5,251,20382805
+"in trouble",6,304,27408662
+"in trouble",7,406,40176069
+"in trouble",8,491,48706843
+"in trouble",9,335,40264174
+"in trouble",10,549,73929298
+"just funny",1,20,25389211
+"just funny",2,13,11750820
+"just funny",3,17,13990519
+"just funny",4,16,14958477
+"just funny",5,22,20382805
+"just funny",6,45,27408662
+"just funny",7,72,40176069
+"just funny",8,98,48706843
+"just funny",9,87,40264174
+"just funny",10,165,73929298
+"just wise",1,2,25389211
+"just wise",2,0,11750820
+"just wise",3,0,13990519
+"just wise",4,0,14958477
+"just wise",5,0,20382805
+"just wise",6,0,27408662
+"just wise",7,0,40176069
+"just wise",8,1,48706843
+"just wise",9,3,40264174
+"just wise",10,0,73929298
+"looking forward",1,1161,25389211
+"looking forward",2,626,11750820
+"looking forward",3,752,13990519
+"looking forward",4,733,14958477
+"looking forward",5,811,20382805
+"looking forward",6,968,27408662
+"looking forward",7,1103,40176069
+"looking forward",8,1469,48706843
+"looking forward",9,1261,40264174
+"looking forward",10,2427,73929298
+"more accurate",1,120,25389211
+"more accurate",2,66,11750820
+"more accurate",3,68,13990519
+"more accurate",4,66,14958477
+"more accurate",5,92,20382805
+"more accurate",6,119,27408662
+"more accurate",7,148,40176069
+"more accurate",8,181,48706843
+"more accurate",9,134,40264174
+"more accurate",10,248,73929298
+"more complex",1,83,25389211
+"more complex",2,56,11750820
+"more complex",3,65,13990519
+"more complex",4,86,14958477
+"more complex",5,145,20382805
+"more complex",6,252,27408662
+"more complex",7,441,40176069
+"more complex",8,555,48706843
+"more complex",9,462,40264174
+"more complex",10,684,73929298
+"more difficult",1,77,25389211
+"more difficult",2,55,11750820
+"more difficult",3,62,13990519
+"more difficult",4,84,14958477
+"more difficult",5,97,20382805
+"more difficult",6,152,27408662
+"more difficult",7,269,40176069
+"more difficult",8,336,48706843
+"more difficult",9,262,40264174
+"more difficult",10,365,73929298
+"more happy",1,5,25389211
+"more happy",2,2,11750820
+"more happy",3,7,13990519
+"more happy",4,3,14958477
+"more happy",5,4,20382805
+"more happy",6,16,27408662
+"more happy",7,13,40176069
+"more happy",8,27,48706843
+"more happy",9,23,40264174
+"more happy",10,53,73929298
+"more skeptical",1,4,25389211
+"more skeptical",2,0,11750820
+"more skeptical",3,1,13990519
+"more skeptical",4,1,14958477
+"more skeptical",5,1,20382805
+"more skeptical",6,9,27408662
+"more skeptical",7,8,40176069
+"more skeptical",8,8,48706843
+"more skeptical",9,10,40264174
+"more skeptical",10,15,73929298
+"more than interesting",1,0,25389211
+"more than interesting",2,0,11750820
+"more than interesting",3,0,13990519
+"more than interesting",4,3,14958477
+"more than interesting",5,1,20382805
+"more than interesting",6,4,27408662
+"more than interesting",7,7,40176069
+"more than interesting",8,9,48706843
+"more than interesting",9,6,40264174
+"more than interesting",10,8,73929298
+"most difficult",1,42,25389211
+"most difficult",2,23,11750820
+"most difficult",3,30,13990519
+"most difficult",4,18,14958477
+"most difficult",5,35,20382805
+"most difficult",6,65,27408662
+"most difficult",7,128,40176069
+"most difficult",8,212,48706843
+"most difficult",9,199,40264174
+"most difficult",10,368,73929298
+"much bigger",1,46,25389211
+"much bigger",2,35,11750820
+"much bigger",3,33,13990519
+"much bigger",4,56,14958477
+"much bigger",5,72,20382805
+"much bigger",6,134,27408662
+"much bigger",7,156,40176069
+"much bigger",8,207,48706843
+"much bigger",9,172,40264174
+"much bigger",10,269,73929298
+"much more optimistic",1,1,25389211
+"much more optimistic",2,0,11750820
+"much more optimistic",3,0,13990519
+"much more optimistic",4,0,14958477
+"much more optimistic",5,2,20382805
+"much more optimistic",6,0,27408662
+"much more optimistic",7,1,40176069
+"much more optimistic",8,3,48706843
+"much more optimistic",9,1,40264174
+"much more optimistic",10,0,73929298
+"particularly good",1,61,25389211
+"particularly good",2,62,11750820
+"particularly good",3,98,13990519
+"particularly good",4,157,14958477
+"particularly good",5,281,20382805
+"particularly good",6,238,27408662
+"particularly good",7,352,40176069
+"particularly good",8,294,48706843
+"particularly good",9,206,40264174
+"particularly good",10,256,73929298
+"particularly hard",1,5,25389211
+"particularly hard",2,1,11750820
+"particularly hard",3,3,13990519
+"particularly hard",4,8,14958477
+"particularly hard",5,3,20382805
+"particularly hard",6,12,27408662
+"particularly hard",7,15,40176069
+"particularly hard",8,18,48706843
+"particularly hard",9,16,40264174
+"particularly hard",10,27,73929298
+"perfectly good",1,189,25389211
+"perfectly good",2,59,11750820
+"perfectly good",3,63,13990519
+"perfectly good",4,56,14958477
+"perfectly good",5,68,20382805
+"perfectly good",6,65,27408662
+"perfectly good",7,71,40176069
+"perfectly good",8,62,48706843
+"perfectly good",9,36,40264174
+"perfectly good",10,69,73929298
+"pretty good",1,1386,25389211
+"pretty good",2,911,11750820
+"pretty good",3,1415,13990519
+"pretty good",4,1832,14958477
+"pretty good",5,2988,20382805
+"pretty good",6,5055,27408662
+"pretty good",7,7704,40176069
+"pretty good",8,5710,48706843
+"pretty good",9,2712,40264174
+"pretty good",10,3365,73929298
+"pretty much true",1,0,25389211
+"pretty much true",2,1,11750820
+"pretty much true",3,2,13990519
+"pretty much true",4,0,14958477
+"pretty much true",5,2,20382805
+"pretty much true",6,4,27408662
+"pretty much true",7,6,40176069
+"pretty much true",8,14,48706843
+"pretty much true",9,6,40264174
+"pretty much true",10,8,73929298
+"pretty safe",1,11,25389211
+"pretty safe",2,4,11750820
+"pretty safe",3,2,13990519
+"pretty safe",4,7,14958477
+"pretty safe",5,9,20382805
+"pretty safe",6,9,27408662
+"pretty safe",7,20,40176069
+"pretty safe",8,18,48706843
+"pretty safe",9,16,40264174
+"pretty safe",10,14,73929298
+"pretty strong",1,22,25389211
+"pretty strong",2,11,11750820
+"pretty strong",3,22,13990519
+"pretty strong",4,22,14958477
+"pretty strong",5,32,20382805
+"pretty strong",6,57,27408662
+"pretty strong",7,87,40176069
+"pretty strong",8,94,48706843
+"pretty strong",9,47,40264174
+"pretty strong",10,49,73929298
+"probably different",1,0,25389211
+"probably different",2,1,11750820
+"probably different",3,0,13990519
+"probably different",4,1,14958477
+"probably different",5,3,20382805
+"probably different",6,5,27408662
+"probably different",7,2,40176069
+"probably different",8,3,48706843
+"probably different",9,2,40264174
+"probably different",10,4,73929298
+"quite different",1,42,25389211
+"quite different",2,25,11750820
+"quite different",3,32,13990519
+"quite different",4,53,14958477
+"quite different",5,82,20382805
+"quite different",6,154,27408662
+"quite different",7,287,40176069
+"quite different",8,435,48706843
+"quite different",9,327,40264174
+"quite different",10,508,73929298
+"quite difficult",1,19,25389211
+"quite difficult",2,9,11750820
+"quite difficult",3,29,13990519
+"quite difficult",4,14,14958477
+"quite difficult",5,34,20382805
+"quite difficult",6,44,27408662
+"quite difficult",7,57,40176069
+"quite difficult",8,80,48706843
+"quite difficult",9,60,40264174
+"quite difficult",10,115,73929298
+"quite few",1,1,25389211
+"quite few",2,2,11750820
+"quite few",3,2,13990519
+"quite few",4,1,14958477
+"quite few",5,3,20382805
+"quite few",6,5,27408662
+"quite few",7,2,40176069
+"quite few",8,5,48706843
+"quite few",9,3,40264174
+"quite few",10,16,73929298
+"quite important",1,4,25389211
+"quite important",2,2,11750820
+"quite important",3,8,13990519
+"quite important",4,5,14958477
+"quite important",5,8,20382805
+"quite important",6,15,27408662
+"quite important",7,16,40176069
+"quite important",8,23,48706843
+"quite important",9,14,40264174
+"quite important",10,28,73929298
+"quite powerful",1,6,25389211
+"quite powerful",2,4,11750820
+"quite powerful",3,3,13990519
+"quite powerful",4,6,14958477
+"quite powerful",5,11,20382805
+"quite powerful",6,21,27408662
+"quite powerful",7,34,40176069
+"quite powerful",8,41,48706843
+"quite powerful",9,44,40264174
+"quite powerful",10,44,73929298
+"really nice",1,85,25389211
+"really nice",2,53,11750820
+"really nice",3,72,13990519
+"really nice",4,89,14958477
+"really nice",5,122,20382805
+"really nice",6,194,27408662
+"really nice",7,330,40176069
+"really nice",8,438,48706843
+"really nice",9,313,40264174
+"really nice",10,534,73929298
+"really really funny",1,7,25389211
+"really really funny",2,2,11750820
+"really really funny",3,0,13990519
+"really really funny",4,4,14958477
+"really really funny",5,2,20382805
+"really really funny",6,3,27408662
+"really really funny",7,9,40176069
+"really really funny",8,9,48706843
+"really really funny",9,16,40264174
+"really really funny",10,43,73929298
+"so happy",1,109,25389211
+"so happy",2,29,11750820
+"so happy",3,35,13990519
+"so happy",4,35,14958477
+"so happy",5,38,20382805
+"so happy",6,54,27408662
+"so happy",7,95,40176069
+"so happy",8,158,48706843
+"so happy",9,179,40264174
+"so happy",10,883,73929298
+"so optimistic",1,2,25389211
+"so optimistic",2,0,11750820
+"so optimistic",3,2,13990519
+"so optimistic",4,0,14958477
+"so optimistic",5,3,20382805
+"so optimistic",6,1,27408662
+"so optimistic",7,0,40176069
+"so optimistic",8,8,48706843
+"so optimistic",9,2,40264174
+"so optimistic",10,7,73929298
+"so sure",1,69,25389211
+"so sure",2,35,11750820
+"so sure",3,41,13990519
+"so sure",4,45,14958477
+"so sure",5,97,20382805
+"so sure",6,125,27408662
+"so sure",7,181,40176069
+"so sure",8,203,48706843
+"so sure",9,167,40264174
+"so sure",10,251,73929298
+"somewhat better",1,26,25389211
+"somewhat better",2,14,11750820
+"somewhat better",3,30,13990519
+"somewhat better",4,42,14958477
+"somewhat better",5,52,20382805
+"somewhat better",6,50,27408662
+"somewhat better",7,54,40176069
+"somewhat better",8,44,48706843
+"somewhat better",9,31,40264174
+"somewhat better",10,29,73929298
+"too thin",1,47,25389211
+"too thin",2,29,11750820
+"too thin",3,40,13990519
+"too thin",4,56,14958477
+"too thin",5,66,20382805
+"too thin",6,97,27408662
+"too thin",7,80,40176069
+"too thin",8,51,48706843
+"too thin",9,33,40264174
+"too thin",10,25,73929298
+"totally true",1,3,25389211
+"totally true",2,0,11750820
+"totally true",3,3,13990519
+"totally true",4,1,14958477
+"totally true",5,6,20382805
+"totally true",6,3,27408662
+"totally true",7,11,40176069
+"totally true",8,15,48706843
+"totally true",9,11,40264174
+"totally true",10,27,73929298
+"totally unfair",1,4,25389211
+"totally unfair",2,1,11750820
+"totally unfair",3,0,13990519
+"totally unfair",4,2,14958477
+"totally unfair",5,1,20382805
+"totally unfair",6,3,27408662
+"totally unfair",7,9,40176069
+"totally unfair",8,9,48706843
+"totally unfair",9,7,40264174
+"totally unfair",10,14,73929298
+"totally untrue",1,8,25389211
+"totally untrue",2,1,11750820
+"totally untrue",3,3,13990519
+"totally untrue",4,0,14958477
+"totally untrue",5,0,20382805
+"totally untrue",6,0,27408662
+"totally untrue",7,3,40176069
+"totally untrue",8,5,48706843
+"totally untrue",9,2,40264174
+"totally untrue",10,6,73929298
+"utterly inflexible",1,0,25389211
+"utterly inflexible",2,0,11750820
+"utterly inflexible",3,0,13990519
+"utterly inflexible",4,0,14958477
+"utterly inflexible",5,0,20382805
+"utterly inflexible",6,0,27408662
+"utterly inflexible",7,0,40176069
+"utterly inflexible",8,0,48706843
+"utterly inflexible",9,0,40264174
+"utterly inflexible",10,0,73929298
+"very comfortable",1,13,25389211
+"very comfortable",2,9,11750820
+"very comfortable",3,9,13990519
+"very comfortable",4,7,14958477
+"very comfortable",5,17,20382805
+"very comfortable",6,33,27408662
+"very comfortable",7,68,40176069
+"very comfortable",8,65,48706843
+"very comfortable",9,54,40264174
+"very comfortable",10,100,73929298
+"very different",1,169,25389211
+"very different",2,122,11750820
+"very different",3,129,13990519
+"very different",4,190,14958477
+"very different",5,326,20382805
+"very different",6,618,27408662
+"very different",7,1278,40176069
+"very different",8,1914,48706843
+"very different",9,1595,40264174
+"very different",10,2393,73929298
+"very excited",1,156,25389211
+"very excited",2,80,11750820
+"very excited",3,108,13990519
+"very excited",4,91,14958477
+"very excited",5,121,20382805
+"very excited",6,131,27408662
+"very excited",7,140,40176069
+"very excited",8,170,48706843
+"very excited",9,137,40264174
+"very excited",10,288,73929298
+"very fair",1,10,25389211
+"very fair",2,4,11750820
+"very fair",3,6,13990519
+"very fair",4,6,14958477
+"very fair",5,9,20382805
+"very fair",6,9,27408662
+"very fair",7,15,40176069
+"very fair",8,34,48706843
+"very fair",9,15,40264174
+"very fair",10,32,73929298
+"very few",1,644,25389211
+"very few",2,358,11750820
+"very few",3,434,13990519
+"very few",4,460,14958477
+"very few",5,504,20382805
+"very few",6,656,27408662
+"very few",7,944,40176069
+"very few",8,1381,48706843
+"very few",9,1440,40264174
+"very few",10,2982,73929298
+"very hard",1,581,25389211
+"very hard",2,331,11750820
+"very hard",3,380,13990519
+"very hard",4,399,14958477
+"very hard",5,506,20382805
+"very hard",6,583,27408662
+"very hard",7,730,40176069
+"very hard",8,867,48706843
+"very hard",9,784,40264174
+"very hard",10,1594,73929298
+"very hopeful",1,4,25389211
+"very hopeful",2,3,11750820
+"very hopeful",3,6,13990519
+"very hopeful",4,4,14958477
+"very hopeful",5,4,20382805
+"very hopeful",6,4,27408662
+"very hopeful",7,8,40176069
+"very hopeful",8,16,48706843
+"very hopeful",9,11,40264174
+"very hopeful",10,20,73929298
+"very nervous",1,15,25389211
+"very nervous",2,5,11750820
+"very nervous",3,10,13990519
+"very nervous",4,8,14958477
+"very nervous",5,7,20382805
+"very nervous",6,17,27408662
+"very nervous",7,27,40176069
+"very nervous",8,32,48706843
+"very nervous",9,24,40264174
+"very nervous",10,53,73929298
+"very nice",1,223,25389211
+"very nice",2,137,11750820
+"very nice",3,232,13990519
+"very nice",4,241,14958477
+"very nice",5,371,20382805
+"very nice",6,687,27408662
+"very nice",7,1199,40176069
+"very nice",8,1402,48706843
+"very nice",9,920,40264174
+"very nice",10,1361,73929298
+"very open",1,58,25389211
+"very open",2,16,11750820
+"very open",3,19,13990519
+"very open",4,16,14958477
+"very open",5,17,20382805
+"very open",6,26,27408662
+"very open",7,58,40176069
+"very open",8,58,48706843
+"very open",9,67,40264174
+"very open",10,110,73929298
+"very optimistic",1,5,25389211
+"very optimistic",2,3,11750820
+"very optimistic",3,4,13990519
+"very optimistic",4,3,14958477
+"very optimistic",5,6,20382805
+"very optimistic",6,2,27408662
+"very optimistic",7,7,40176069
+"very optimistic",8,9,48706843
+"very optimistic",9,19,40264174
+"very optimistic",10,24,73929298
+"very positive",1,35,25389211
+"very positive",2,15,11750820
+"very positive",3,31,13990519
+"very positive",4,23,14958477
+"very positive",5,50,20382805
+"very positive",6,47,27408662
+"very positive",7,87,40176069
+"very positive",8,124,48706843
+"very positive",9,145,40264174
+"very positive",10,227,73929298
+"very possible",1,16,25389211
+"very possible",2,8,11750820
+"very possible",3,10,13990519
+"very possible",4,4,14958477
+"very possible",5,11,20382805
+"very possible",6,24,27408662
+"very possible",7,26,40176069
+"very possible",8,27,48706843
+"very possible",9,39,40264174
+"very possible",10,66,73929298
+"very significant",1,5,25389211
+"very significant",2,4,11750820
+"very significant",3,3,13990519
+"very significant",4,11,14958477
+"very significant",5,6,20382805
+"very significant",6,15,27408662
+"very significant",7,31,40176069
+"very significant",8,42,48706843
+"very significant",9,37,40264174
+"very significant",10,78,73929298
+"very similar",1,183,25389211
+"very similar",2,111,11750820
+"very similar",3,183,13990519
+"very similar",4,239,14958477
+"very similar",5,328,20382805
+"very similar",6,476,27408662
+"very similar",7,778,40176069
+"very similar",8,877,48706843
+"very similar",9,637,40264174
+"very similar",10,959,73929298
+"very unusual",1,8,25389211
+"very unusual",2,9,11750820
+"very unusual",3,16,13990519
+"very unusual",4,19,14958477
+"very unusual",5,48,20382805
+"very unusual",6,96,27408662
+"very unusual",7,198,40176069
+"very unusual",8,244,48706843
+"very unusual",9,162,40264174
+"very unusual",10,282,73929298
+"very well",1,1328,25389211
+"very well",2,817,11750820
+"very well",3,1184,13990519
+"very well",4,1623,14958477
+"very well",5,2735,20382805
+"very well",6,4510,27408662
+"very well",7,8518,40176069
+"very well",8,12456,48706843
+"very well",9,10032,40264174
+"very well",10,15410,73929298
+"very, very close",1,1,25389211
+"very, very close",2,3,11750820
+"very, very close",3,1,13990519
+"very, very close",4,4,14958477
+"very, very close",5,0,20382805
+"very, very close",6,5,27408662
+"very, very close",7,5,40176069
+"very, very close",8,16,48706843
+"very, very close",9,13,40264174
+"very, very close",10,20,73929298
+"very, very worried",1,0,25389211
+"very, very worried",2,0,11750820
+"very, very worried",3,0,13990519
+"very, very worried",4,1,14958477
+"very, very worried",5,0,20382805
+"very, very worried",6,0,27408662
+"very, very worried",7,0,40176069
+"very, very worried",8,0,48706843
+"very, very worried",9,0,40264174
+"very, very worried",10,1,73929298
+"very, very wrong",1,9,25389211
+"very, very wrong",2,13,11750820
+"very, very wrong",3,6,13990519
+"very, very wrong",4,8,14958477
+"very, very wrong",5,5,20382805
+"very, very wrong",6,5,27408662
+"very, very wrong",7,3,40176069
+"very, very wrong",8,6,48706843
+"very, very wrong",9,21,40264174
+"very, very wrong",10,22,73929298
+"worried to death",1,1,25389211
+"worried to death",2,0,11750820
+"worried to death",3,0,13990519
+"worried to death",4,0,14958477
+"worried to death",5,0,20382805
+"worried to death",6,2,27408662
+"worried to death",7,0,40176069
+"worried to death",8,2,48706843
+"worried to death",9,0,40264174
+"worried to death",10,1,73929298
