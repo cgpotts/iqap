@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 
-import re
+from collections import defaultdict
 import csv
-import yaml
-import numpy
 from glob import glob
-from dicts import DefaultDict
+import numpy as np
 from operator import itemgetter
+import re
+import yaml
 
-sentiment = DefaultDict(0)
+sentiment = defaultdict(int)
 for sentiment_filename in glob("wn/*.yaml"):
-    d = yaml.load(file(sentiment_filename))
-    for key,val in d.items():
+    d = yaml.load(open(sentiment_filename, 'rt'))
+    for key,val in list(d.items()):
         sentiment[key] = val
 
 class Evaluator:
@@ -25,21 +25,36 @@ class Evaluator:
     def with_means(self):
         predictions = {}
         for dialogue in self.annotations.dialogues:
-            prediction = self.decision(dialogue.modsQ, dialogue.modsA, dialogue.negation, "meanfreq", dialogue.classification)
+            prediction = self.decision(
+                dialogue.modsQ,
+                dialogue.modsA,
+                dialogue.negation,
+                "meanfreq",
+                dialogue.classification)
             predictions[dialogue.hitid] = [dialogue.tri_dominant_answer, prediction]
         return predictions
 
     def with_maxs(self):
         predictions = {}
         for dialogue in self.annotations.dialogues:
-            prediction = self.decision(dialogue.modsQ, dialogue.modsA, dialogue.negation, "maxfreq", dialogue.classification)
+            prediction = self.decision(
+                dialogue.modsQ,
+                dialogue.modsA,
+                dialogue.negation,
+                "maxfreq",
+                dialogue.classification)
             predictions[dialogue.hitid] = [dialogue.tri_dominant_answer, prediction]
         return predictions
 
     def with_wordnet(self):
          predictions = {}
          for dialogue in self.annotations.dialogues:             
-             prediction = self.decision(dialogue.modsQ, dialogue.modsA, dialogue.negation, "sentiment", dialogue.classification)
+             prediction = self.decision(
+                 dialogue.modsQ,
+                 dialogue.modsA,
+                 dialogue.negation,
+                 "sentiment",
+                 dialogue.classification)
              predictions[dialogue.hitid] = [dialogue.tri_dominant_answer, prediction]
          return predictions
 
@@ -64,7 +79,7 @@ class Evaluator:
                         pass # Skip this pair.
                     elif modQ.name == modA.name:
                         return self.__reverse_prediction("yes", negation)
-                    elif numpy.sign(eval("modQ." + funcname)) != numpy.sign(eval("modA." + funcname)):
+                    elif np.sign(eval("modQ." + funcname)) != np.sign(eval("modA." + funcname)):
                         return self.__reverse_prediction("no", negation)
                     elif abs(eval("modQ." + funcname)) <= abs(eval("modA." + funcname)):
                         return self.__reverse_prediction("yes", negation)
@@ -81,39 +96,39 @@ class Evaluator:
             return prediction
                     
     def create_predictions_file(self, *predictions_sets):
-        csv_writer = csv.writer(file(self.predictions_filename, "w"), skipinitialspace=True, quotechar='"', delimiter=',')
-        # Header,
-        header = self.annotations.fieldnames
-        for predictions_set in predictions_sets:            
-            method = predictions_set[1]
-            header.append("Prediction_" + method)
-            header.append(method + "_IsAccurate")
-        csv_writer.writerow(header)
-        # Predictions.        
-        for dialogue in self.annotations.dialogues:
-            new_row = dialogue.row
-            for predictions_set in predictions_sets:
-                predictions = predictions_set[0]
-                is_accurate = 0
-                actual, predicted = predictions[dialogue.hitid]
-                if actual == predicted:
-                    is_accurate = 1
-                new_row += [predicted, is_accurate]                    
-            csv_writer.writerow(new_row)                
+        with open(self.predictions_filename, "wt") as f:
+            csv_writer = csv.writer(f, skipinitialspace=True, quotechar='"', delimiter=',')
+            # Header,
+            header = self.annotations.fieldnames
+            for predictions_set in predictions_sets:            
+                method = predictions_set[1]
+                header.append("Prediction_" + method)
+                header.append(method + "_IsAccurate")
+            csv_writer.writerow(header)
+            # Predictions.        
+            for dialogue in self.annotations.dialogues:
+                new_row = dialogue.row
+                for predictions_set in predictions_sets:
+                    predictions = predictions_set[0]
+                    is_accurate = 0
+                    actual, predicted = predictions[dialogue.hitid]
+                    if actual == predicted:
+                        is_accurate = 1
+                    new_row += [predicted, is_accurate]                    
+                csv_writer.writerow(new_row)                
         # Print the correct/incorrect distribution.        
         for predictions_set in predictions_sets:
-            counts = DefaultDict(0)
+            counts = defaultdict(int)
             predictions, method = predictions_set
-            for hitid, vals in predictions.items():
+            for hitid, vals in list(predictions.items()):
                 if vals[0] == vals[1]:
                     counts["CORRECT"] += 1
                 else:
                     counts["INCORRECT"] += 1
-            print method
-            for verdict, count in counts.items():
+            print("\n%s" % method)
+            for verdict, count in list(counts.items()):
                 per = float(count)/float(sum(counts.values()))
-                print "%s\t%s (%s)" % (verdict,count,per)
-            print
+                print("%s\t%s (%s)" % (verdict,count,per))
 
             
 ######################################################################
@@ -124,7 +139,7 @@ class AnnotatedDialogues:
         self.rows = list(csv.reader(open(filename), delimiter=',', quotechar='"'))
         self.fieldnames = self.rows[0]
         self.rows.pop(0)
-        self.dialogues = map((lambda x : Dialogue(x, self.fieldnames)), self.rows)
+        self.dialogues = list(map((lambda x : Dialogue(x, self.fieldnames)), self.rows))
     
 class Dialogue:
     def __init__(self, row, fieldnames):
@@ -132,7 +147,7 @@ class Dialogue:
         self.row = row
         for i in range(0, len(self.fieldnames)):            
             setattr(self, self.__convert_fieldname(self.fieldnames[i]), self.row[i])
-        self.modsQ = map((lambda x : x.strip().lower()), self.adjective_a.split("/"))
+        self.modsQ = list(map((lambda x : x.strip().lower()), self.adjective_a.split("/")))
         self.modsA = []
         for adj in map((lambda x : x.strip().lower()), self.adjective_b.split("/")):
             self.modsA.append(adj)
@@ -150,7 +165,7 @@ class Dialogue:
 class Dictionary:
     def __init__(self, filenames):
         self.filenames = filenames
-        phrases2rows = DefaultDict([])
+        phrases2rows = defaultdict(list)
         rows = []
         for filename in filenames:
             these_rows = list(csv.reader(open(filename), delimiter=',', quotechar='"'))
@@ -159,7 +174,7 @@ class Dictionary:
         for row in rows:
             phrases2rows[row[0]].append(row)
         self.phrases = []
-        for row_set in phrases2rows.values():
+        for row_set in list(phrases2rows.values()):
             self.phrases.append(Phrase(row_set))
 
     def phrase(self, phrasename):
@@ -183,7 +198,7 @@ class Phrase:
             phrase,rating,freq,total = row
             f[float(rating)-3] = float(freq)/float(total)
         dist = {}
-        for rating,freq in f.items():
+        for rating,freq in list(f.items()):
             if sum(f.values()) > 0:
                 dist[rating] = freq/sum(f.values())
             else:
@@ -191,11 +206,11 @@ class Phrase:
         return dist
 
     def get_max_freq(self):
-        return sorted(self.freqs.items(), key=itemgetter(1), reverse=True)[0][0]
+        return sorted(list(self.freqs.items()), key=itemgetter(1), reverse=True)[0][0]
 
     def get_mean_freq(self):
         mu = 0.0
-        for rating,freq in self.freqs.items():
+        for rating,freq in list(self.freqs.items()):
             mu += float(rating) * float(freq)
         return mu
 
